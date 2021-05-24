@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_interview_references",
+  "info": {
+    "name": "reference",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_interview_media",
+  "info": {
+    "name": "media",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "source": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "caption": {
+      "type": "text"
+    }
+  }
+}

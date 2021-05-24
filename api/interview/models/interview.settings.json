@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interviews",
+  "info": {
+    "name": "interview"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "miniature": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "interview.media"
+    },
+    "media_copyright": {
+      "type": "string",
+      "required": true
+    },
+    "audio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "interview.audio"
+    },
+    "reference": {
+      "type": "component",
+      "repeatable": true,
+      "component": "interview.reference"
+    },
+    "language": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
