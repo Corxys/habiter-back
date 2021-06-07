@@ -2,7 +2,8 @@
   "collectionName": "components_interview_references",
   "info": {
     "name": "reference",
-    "icon": "link"
+    "icon": "link",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,8 +11,10 @@
       "type": "string",
       "required": true
     },
-    "link": {
-      "type": "string"
+    "source": {
+      "type": "component",
+      "repeatable": true,
+      "component": "interview.link"
     }
   }
 }

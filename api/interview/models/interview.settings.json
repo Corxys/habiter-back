@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "interviews",
   "info": {
-    "name": "interview"
+    "name": "interview",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -30,7 +31,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
     },
     "media": {
@@ -55,6 +56,9 @@
     "language": {
       "type": "string",
       "required": false
+    },
+    "translated_from": {
+      "type": "text"
     }
   }
 }

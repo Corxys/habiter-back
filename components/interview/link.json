@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_interview_links",
+  "info": {
+    "name": "link",
+    "icon": "external-link-square-alt"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}
