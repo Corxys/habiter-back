@@ -59,6 +59,11 @@
     },
     "translated_from": {
       "type": "text"
+    },
+    "quote": {
+      "type": "component",
+      "repeatable": true,
+      "component": "interview.quote"
     }
   }
 }

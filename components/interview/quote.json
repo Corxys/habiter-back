@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_interview_quotes",
+  "info": {
+    "name": "quote",
+    "icon": "quote-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}
