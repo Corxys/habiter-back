@@ -41,7 +41,7 @@
     },
     "media_copyright": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "audio": {
       "type": "component",
