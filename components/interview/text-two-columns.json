@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_interview_text_two_columns",
+  "info": {
+    "name": "text_two_columns",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "column_one": {
+      "type": "text"
+    },
+    "column_two": {
+      "type": "text"
+    }
+  }
+}
