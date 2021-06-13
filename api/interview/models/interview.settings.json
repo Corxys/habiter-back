@@ -22,7 +22,7 @@
     },
     "text": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "miniature": {
       "model": "file",
