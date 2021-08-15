@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "references",
+  "info": {
+    "name": "reference",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
